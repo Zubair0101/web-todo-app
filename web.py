@@ -26,5 +26,3 @@ for index, to_do in enumerate(todos):
         st.experimental_rerun()
 
 st.text_input(label="", placeholder="Add new to-do...", key="new_todo", on_change=add_todo)
-
-st.session_state
